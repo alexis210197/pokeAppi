@@ -1,0 +1,8 @@
+.container__error{
+    background-image: url(https://img.freepik.com/vector-gratis/ups-error-404-ilustracion-concepto-robot-roto_114360-5529.jpg?w=2000);
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-size: 100vh, 100vw;
+    background-repeat: no-repeat;
+}

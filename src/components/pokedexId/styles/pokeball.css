@@ -1,0 +1,36 @@
+.pokeball{
+    border-radius: 50%;
+    border: 2px solid #F6F5F5;
+    width: 89px;
+    height: 89px;
+    position: relative;
+    overflow: hidden;
+}
+.pokeball__line{
+    background-color: #F6F5F5;
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    top: 50%;
+}
+.pokeball__int{
+    width: 33px;
+    position: absolute;
+    background-color: white;
+    aspect-ratio: 1;
+    border-radius: 50px;
+    left: 50%;
+    transform: translate(-50%,27px);
+    border:2px solid #F6F5F5;
+    z-index: 25;
+}
+
+.pokeball__int-small{
+    width: 20px;
+    position: absolute;
+    aspect-ratio: 1;
+    border-radius: 50px;
+    left: 50%;
+    transform: translate(-50%,5px);
+    border:2px solid #F6F5F5;
+}
